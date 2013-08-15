@@ -32,7 +32,7 @@ var priceOfPrestige = function (amazonPrice){
 
 //String
 var soExcited = function (excited1, excited2){
-	var excitment = ("I can not waite " + excited1 + excited2);
+	var excitment = ("I can not wait " + excited1 + excited2);
 	return excitment;
 };
 
@@ -66,6 +66,17 @@ console.log("After work I got online and checked what else was said about COD's 
 var goodDeal = priceOfPrestige(199);
 console.log(goodDeal);
 
+console.log("Even though I would be paying a little more at the store it is going to be worth it getting it on day one!!!")
+var greatMood = soExcited("FOR THIS GAME!!!, The collectors edition is so AMAZING!!!");
+console.log(greatMood);
 
+console.log("Now was I going to have enough money to pay for it. And the answer is yes!");
+enoughForGame(800, "it is a fantastic day")
+
+console.log("After checking money situation and everything I called a few places.");
+var gotToHurry = getQuantity(quantity, daysLeft);
+for (var i = 0; i < stores.length; i++) {
+	console.log(stores[i] + " told me that there will only be " + daysLeft + " days only to preorder so I better hurry if I want to keep my collection going.");
+};
 
 
