@@ -18,3 +18,17 @@ var getStores = function (storesQuantity){
 		console.log("I have plenty of time to pre-order.");
 	}
 };
+
+// # Functions
+var priceOfPrestige = function (amazonPrice){
+	var cod = 199;
+	while (amazonPrice > 199){
+		console.log ("Amazon did have a small deal but not by much. On amazon it was " + amazonPrice + " dollars online and that was not convincing enough to order online.")
+		amazonPrice-=5;
+	} 
+	var betterDeal = ("Might as well buy at store and pick up on day one!")
+	return betterDeal;
+}
+
+//Boolean
+
