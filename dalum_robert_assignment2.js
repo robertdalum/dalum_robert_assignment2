@@ -47,5 +47,19 @@ var enoughForGame = function (cashFlow, payPeriod){
 	}
 };
 
+//Array
+var getQuantity = function (quantity, daysLeft) {
+	var gotToHurry = [];
+	for (var i = 0; i < quantity.length; i++){
+		var math = (daysLeft - quantity[i])
+		gotToHurry.push(math)
+	}
+	return gotToHurry;
+};
+
+//CONSOLE LOGS
+console.log("I just saw the MP reveal of " + anticipatedGame + " and it was AMAZING!!!");
+console.log("Since the reveal was an hour long and I had to go to work I had to wait till I got home to read more about it.");
+getStores(125);
 
 
