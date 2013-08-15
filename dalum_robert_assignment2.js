@@ -28,7 +28,24 @@ var priceOfPrestige = function (amazonPrice){
 	} 
 	var betterDeal = ("Might as well buy at store and pick up on day one!")
 	return betterDeal;
-}
+};
+
+//String
+var soExcited = function (excited1, excited2){
+	var excitment = ("I can not waite " + excited1 + excited2);
+	return excitment;
+};
 
 //Boolean
+var enoughForGame = function (cashFlow, payPeriod){
+	if ((cashFlow > 250) && ((payPeriod === "it is a fantastic day"))) {
+		console.log("Just adding another awesome piece to my gaming collection!!!");
+		return true;
+	}else{
+		console.log("I have never missed out on a collectors edition I am really upset.");
+		return false;
+	}
+};
+
+
 
