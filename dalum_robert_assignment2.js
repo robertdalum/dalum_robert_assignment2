@@ -10,7 +10,7 @@ var quantity = [100, 75, 200];
 var daysLeft = 2
 
 //Procedure
-var getStores = function (storesQuantity){
+var getStoresQ = function (storesQuantity){
 	var averageQuantity = 125;
 	if (averageQuantity < storesQuantity){
 		console.log("If the prestige edition has limited quantities I have to rush to the store and pre-order!");
@@ -60,6 +60,12 @@ var getQuantity = function (quantity, daysLeft) {
 //CONSOLE LOGS
 console.log("I just saw the MP reveal of " + anticipatedGame + " and it was AMAZING!!!");
 console.log("Since the reveal was an hour long and I had to go to work I had to wait till I got home to read more about it.");
-getStores(125);
+getStoresQ(150);
+
+console.log("After work I got online and checked what else was said about COD's prestige edition.")
+var goodDeal = priceOfPrestige(199);
+console.log(goodDeal);
+
+
 
 
